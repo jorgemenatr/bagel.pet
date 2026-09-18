@@ -1,10 +1,11 @@
 import { CAREGIVERS } from '../lib/feedings'
+import PawIcon from './icons/PawIcon'
 
 export default function CaregiverPicker({ onPick }) {
   return (
     <div className="flex min-h-dvh flex-col items-center justify-center gap-8 bg-bg px-6 text-center">
       <div className="space-y-2">
-        <div className="text-5xl">🐾</div>
+        <PawIcon className="mx-auto h-12 w-12" />
         <h1 className="text-2xl font-bold text-white">¿Ya comió?</h1>
         <p className="text-sm text-white/60">¿Quién eres tú?</p>
       </div>
